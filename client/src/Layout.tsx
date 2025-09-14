@@ -57,7 +57,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
-              ShopEase
+              Shopify
             </Link>
           </Typography>
           

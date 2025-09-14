@@ -40,14 +40,14 @@ const Home: React.FC = () => {
       <Box className="hero-section">
         <Container maxWidth="lg">
           <Typography variant="h2" component="h1" gutterBottom>
-            Welcome to ShopEase
+            Welcome to Shopify
           </Typography>
           <Typography variant="h5" component="p" gutterBottom sx={{ mb: 4 }}>
             Your Ultimate Shopping Destination
           </Typography>
           <Typography variant="body1" sx={{ mb: 4, maxWidth: 600, mx: 'auto' }}>
             Discover amazing products, unbeatable prices, and exceptional service. 
-            Join millions of satisfied customers who trust ShopEase for all their shopping needs.
+            Join millions of satisfied customers who trust Shopify for all their shopping needs.
           </Typography>
           {isAuthenticated ? (
             <Button
@@ -70,7 +70,7 @@ const Home: React.FC = () => {
       {/* Features Section */}
       <Container maxWidth="lg" sx={{ py: 8 }}>
         <Typography variant="h3" component="h2" textAlign="center" gutterBottom>
-          Why Choose ShopEase?
+          Why Choose Shopify?
         </Typography>
         <Grid container spacing={4} sx={{ mt: 4 }}>
           {features.map((feature, index) => (
